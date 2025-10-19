@@ -10,7 +10,7 @@ export default defineConfig({
   reporter: 'html',
   use: {
     actionTimeout: 0,
-    baseURL: 'https://s-akv-akvartoarticlessite.spectrumdata.int/',
+    baseURL: 'https://akvarto.ru/',
     trace: 'on-first-retry',
   },
 

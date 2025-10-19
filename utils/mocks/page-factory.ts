@@ -2,7 +2,7 @@ import { LocatorContext } from "../../types/page-factory/component";
 
 // Эта функция предназначена для динамической генерации локаторов (селекторов) на основе шаблонов и переданных параметров.
 export const locatorTemplateFormat = (locator: string, { ...context}: LocatorContext): string => {
-    let template = locator; // исходный шаблон локатора с плейсхолдерами
+    let template = locator; // исходный шаблон локатора 
 
     for(const [key, value] of Object.entries(context)){ // перебираем все параметры из context
         template = template.replace(`${key}`, value.toString()); // заменяем каждый плейсхолдер на значение

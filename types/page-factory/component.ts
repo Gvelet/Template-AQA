@@ -14,3 +14,4 @@ export type ComponentProps = {
 export type LocatorProps = {locator?: string} & LocatorContext
 // Объединяет два типа: { locator?: string } — опциональный свойство locator, которое позволяет переопределить базовый локатор компонента при вызове getLocator.
 // & LocatorContext — все ключи и значения, указанные в LocatorContext (id, isActive, label, и т.д.).
+
