@@ -4,15 +4,17 @@ import { Navbar } from '../components/navigation/navbar';
 
 export class BasePage {
     readonly navbar: Navbar;
-
+    public readonly url: string = '/';
+    public readonly root: string = '';
+    
     constructor(public page: Page){
         this.navbar = new Navbar(page);
     }
 
     // Открытие url страницы
-    async visit(url: string): Promise<void>{
-        await test.step(`Открытие страницы ${url}`, async () => {
-            await this.page.goto(url, {waitUntil: 'networkidle'});
+    async visit(): Promise<void>{
+        await test.step(`Открытие страницы ${this.url}`, async () => {
+            await this.page.goto(this.url, {waitUntil: 'networkidle'});
         }
     )};
 

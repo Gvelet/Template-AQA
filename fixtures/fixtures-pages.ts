@@ -1,15 +1,15 @@
-// Фикстура страниц page для удобного вызыва
+// Фикстура страниц для удобного вызыва
 import {Fixtures} from '@playwright/test';
-import {AkvartoHomePage} from '../pages/pages-site/akvartoHomePage.ts';
+import {HomePage} from '../pages/pages-site/homePage.ts';
 import {ContextPagesFixture} from './fixtures-context';
 
 export type PageFixture = {
-    akvartoHomePage: AkvartoHomePage;
+    HomePage: HomePage;
 };
 
 export const pageFixture: Fixtures<PageFixture, ContextPagesFixture> = {
-    akvartoHomePage: async ({contextPage}, use) => {
-        const akvartoHomePage = new AkvartoHomePage(contextPage);
+    HomePage: async ({contextPage}, use) => {
+        const akvartoHomePage = new HomePage(contextPage);
 
         await use(akvartoHomePage)
     }

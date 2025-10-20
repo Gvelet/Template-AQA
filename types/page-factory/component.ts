@@ -8,6 +8,7 @@ export type ComponentProps = {
     page: Page;
     locator: string;
     name?: string;
+    root?: string;
 };
 
 // LocatorProps — расширение ComponentProps, позволяющее при вызове getLocator передавать новые параметры или переопределять шаблон.

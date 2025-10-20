@@ -8,18 +8,27 @@ export abstract class Component {
     page: Page;
     locator: string;
     private name: string | undefined;
+    private root?: string;
 
-    constructor({page, locator, name}: ComponentProps){
+    constructor({page, locator, name, root}: ComponentProps){
         this.page = page;
         this.locator = locator;
         this.name = name;
+        this.root = root;
     }
 
     // Возвращает Locator, используя шаблон и параметры.
     getLocator(props: LocatorProps = {}): Locator{
-        const {locator, ...context} = props; //Из объекта props извлекается свойство locator. Остальные свойства размещаются в объект context.
-        const withTemplate = locatorTemplateFormat(locator || this.locator, context); //если свойство locator есть — используется оно, иначе применяется значение this.locator, заданное в объекте.
+        //Из объекта props извлекается свойство locator. Остальные свойства размещаются в объект context.
+        const {locator, ...context} = props; 
+        let useLocator = locator || this.locator;
 
+        if(this.root){
+            useLocator = `${this.root} ${useLocator}`
+        }
+
+        //Если свойство locator есть — используется оно, иначе применяется значение this.locator, заданное в объекте.
+        const withTemplate = locatorTemplateFormat(useLocator, context); 
         return this.page.locator(withTemplate);
     };
 
