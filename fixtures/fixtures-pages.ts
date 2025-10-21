@@ -1,7 +1,7 @@
 // Фикстура страниц для удобного вызыва
 import {Fixtures} from '@playwright/test';
-import {HomePage} from '../pages/pages-site/homePage.ts';
-import {ContextPagesFixture} from './fixtures-context';
+import {HomePage} from '@/pages/pages-site/homePage';
+import {ContextPagesFixture} from '@/fixtures/fixtures-context';
 
 export type PageFixture = {
     HomePage: HomePage;

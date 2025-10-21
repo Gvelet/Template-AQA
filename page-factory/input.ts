@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
-import { LocatorProps } from '../types/page-factory/component';
-import { FillProps, FilesSet, TypeOptions } from '../types/page-factory/inputComponent';
-import { Component } from './component';
+import { LocatorProps } from '@/types/page-factory/component';
+import { FillProps, FilesSet, TypeOptions } from '@/types/page-factory/inputComponent';
+import { Component } from '@/page-factory/component';
 
 export class Input extends Component {
     get typeOf(): string {

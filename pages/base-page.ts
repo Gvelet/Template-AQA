@@ -1,14 +1,18 @@
 // Базовая страница для всех страниц
 import {test, Page} from '@playwright/test';
-import { Navbar } from '../components/navigation/navbar';
+import { NavbarDesktopAuth } from '@/components/navigation/header/navbarDesktopAuth';
+import { NavbarDesktopUnAuth } from '@/components/navigation/header/navbarDesktopUnAuth';
 
 export class BasePage {
-    readonly navbar: Navbar;
+    readonly navAuthDesktop: NavbarDesktopAuth;
+    readonly navUnAuthDesktop: NavbarDesktopUnAuth;
+    
     public readonly url: string = '/';
     public readonly root: string = '';
     
     constructor(public page: Page){
-        this.navbar = new Navbar(page);
+        this.navAuthDesktop = new NavbarDesktopAuth(page);
+        this.navUnAuthDesktop = new NavbarDesktopUnAuth(page);
     }
 
     // Открытие url страницы

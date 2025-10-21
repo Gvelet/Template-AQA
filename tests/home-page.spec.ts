@@ -1,4 +1,4 @@
-import { searchTest as test } from './tests';
+import { searchTest as test } from '@/tests/tests';
 
 test.describe('Главная страница', () => {
 

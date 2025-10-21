@@ -1,11 +1,11 @@
 // Страница на нашем сайте
 import { Page } from "@playwright/test";
-import { BasePage } from "../base-page";
-import { Title } from '../../page-factory/title';
+import { BasePage } from "@/pages/base-page";
+import { Title } from '@/page-factory/title';
 
 export class HomePage extends BasePage{
     readonly url: string = '/';
-    readonly root: string = '.rootPage';
+    readonly root: string = '.home-page__container-main';
 
     readonly titlePage: Title;
     constructor(public page: Page){

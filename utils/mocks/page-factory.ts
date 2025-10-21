@@ -1,4 +1,4 @@
-import { LocatorContext } from "../../types/page-factory/component";
+import { LocatorContext } from "@/types/page-factory/component";
 
 // Эта функция предназначена для динамической генерации локаторов (селекторов) на основе шаблонов и переданных параметров.
 export const locatorTemplateFormat = (locator: string, { ...context}: LocatorContext): string => {

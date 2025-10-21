@@ -1,4 +1,4 @@
-import { LocatorProps } from "./component";
+import { LocatorProps } from "@/types/page-factory/component";
 
 export type FillProps = { validateValue?: boolean } & LocatorProps;
 export type FilesSet = string | string[];

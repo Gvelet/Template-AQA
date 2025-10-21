@@ -1,8 +1,8 @@
 // Компонент и абстрактный класс для page-factory
 import {test, Page, expect, Locator } from "@playwright/test"
-import { ComponentProps, LocatorProps } from '../types/page-factory/component.ts';
-import { locatorTemplateFormat } from "../utils/mocks/page-factory.ts";
-import { capitalizeFirstLetter } from "../utils/mocks/generic.ts";
+import { ComponentProps, LocatorProps } from '@/types/page-factory/component.js';
+import { locatorTemplateFormat } from "@/utils/mocks/page-factory.js";
+import { capitalizeFirstLetter } from "@/utils/mocks/generic";
 
 export abstract class Component {
     page: Page;
