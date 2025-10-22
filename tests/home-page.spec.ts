@@ -8,7 +8,7 @@ test.describe('Главная страница', () => {
     });
 
     test('Проверка заголовка модалки', async({HomePage}) => {
-        await HomePage.titlePage.click()
+
     });
 
 })

@@ -88,6 +88,13 @@ export abstract class Component {
 
             expect(attributeElement, { message: `Аттрибут ${nameAttribute} со значением ${attributeElement} совпадает с ${text}` }).toBe(text)
     })
-  }
+  };
+
+    async hover(locatorProps: LocatorProps = {}): Promise<void>{
+    await test.step(`Наведение на ${this.typeOf} с именем ${this.componentName}`, async () => {
+        const locator = this.getLocator(locatorProps);
+        await locator.hover();
+    });
+};
 
 }

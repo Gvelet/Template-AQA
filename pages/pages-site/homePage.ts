@@ -2,6 +2,7 @@
 import { Page } from "@playwright/test";
 import { BasePage } from "@/pages/base-page";
 import { Title } from '@/page-factory/title';
+import { NavbarDesktopAuth } from '@/components/navigation/header/navbarDesktopAuth';
 
 export class HomePage extends BasePage{
     readonly url: string = '/';
