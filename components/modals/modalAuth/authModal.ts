@@ -31,6 +31,8 @@ export class ModalAuth {
     readonly emailClearBtn: Button;
     readonly passwordClearBtn: Button;
     readonly showHiddenPassBtn: Button;
+    readonly messageErrEmail: Text;
+    readonly messageErrPassword: Text;
 
     constructor(public page: Page, root?:string){
         this.root = root || '.base-modal__window';
@@ -44,6 +46,8 @@ export class ModalAuth {
         this.emailClearBtn = new Button({page, locator: SELECTOR_EMAIL_CLEAR_BTN, name: 'Кнопка очистки поля email', root: this.root });
         this.passwordClearBtn = new Button({page, locator: SELECTOR_PASS_CLEAR_BTN, name: 'Кнопка очистки поля password', root: this.root });
         this.showHiddenPassBtn = new Button({page, locator: SELECTOR_SHOW_HIDDEN_PASS_BTN, name: 'Кнопка Показать/Скрыть пароль', root: this.root });
+        this.messageErrEmail = new Text({page, locator: SELECTOR_ERR_MESSAGE_EMAIL, name: 'Валидационная ошибка email', root: this.root });
+        this.messageErrPassword = new Text({page, locator: SELECTOR_ERR_MESSAGE_PASSWORD, name: 'Валидационная ошибка password', root: this.root });
     };
 
     async modalIsOpened(): Promise<void> {
@@ -51,5 +55,6 @@ export class ModalAuth {
         await this.emailInput.shouldBeVisible();
         await this.passwordInput.shouldBeVisible();
         await this.enterBtn.shouldBeVisible();
-    }
+    };
 }
+

@@ -26,8 +26,8 @@ export class NavbarDesktopUnAuth {
         this.rootNav = root || '.app-header__desktop';
         this.modalAuth = new ModalAuth(page)
 
-        this.aboutUsLink = new Link({ page, locator: SELECTOR_ABOUTUS_LINK, name: 'Ссылка "О нас" у неавторизованного', root: this.rootNav }); 
-        this.glossaryLink = new Link({ page, locator: SELECTOR_GLOSSARY_LINK, name: 'Ссылка "Глоссарий" у неавторизованного', root: this.rootNav });
+        this.aboutUsLink = new Link({ page, locator: SELECTOR_ABOUTUS_LINK, name: '"О нас" у неавторизованного', root: this.rootNav }); 
+        this.glossaryLink = new Link({ page, locator: SELECTOR_GLOSSARY_LINK, name: '"Глоссарий" у неавторизованного', root: this.rootNav });
         this.libraryLink = new Link({ page, locator: SELECTOR_LIBRARY_LINK, name: 'Ссылка "Библиотека документов" у неавторизованного', root: this.rootNav });
         this.estatelistLink = new Link({ page, locator: SELECTOR_ESTATE_LIST_LINK, name: 'Ссылка "Поиск недвижимости" у неавторизованного', root: this.rootNav });
         this.authLoginLink = new Link({page, locator: SELECTOR_AUTH_LOGIN_LINK, name: 'Кнопка открытия модалки авторизации', root: this.rootNav }) 

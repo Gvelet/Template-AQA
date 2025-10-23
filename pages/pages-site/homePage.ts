@@ -5,7 +5,7 @@ import { Title } from '@/page-factory/title';
 import { NavbarDesktopAuth } from '@/components/navigation/header/navbarDesktopAuth';
 
 export class HomePage extends BasePage{
-    readonly url: string = '/';
+    readonly url: string = '/library';
     readonly root: string = '.home-page__container-main';
 
     readonly titlePage: Title;
