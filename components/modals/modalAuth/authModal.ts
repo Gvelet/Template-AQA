@@ -17,7 +17,7 @@ import {
     SELECTOR_ERR_MESSAGE_EMAIL,
     SELECTOR_ERR_MESSAGE_PASSWORD,
     SELECTOR_PASS_CLEAR_BTN
-} from '@/components/modals/modalAuth/authModal.const';
+} from '@/components/authorization.const';
 
 export class ModalAuth {
     readonly root: string;
