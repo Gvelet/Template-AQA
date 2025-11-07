@@ -1,6 +1,6 @@
 // Локаторы Десктопа - общие
 export const SELECTOR_ARTICLES_LINK = 'a.nav-item:has-text("Статьи")';
-export const SELECTOR_GLOSSARY_LINK = '1a.nav-item:has-text("Глоссарий")';
+export const SELECTOR_GLOSSARY_LINK = 'a.nav-item:has-text("Глоссарий")';
 export const SELECTOR_LIBRARY_LINK = 'a.nav-item:has-text("Библиотека документов")';
 export const SELECTOR_AUTH_LOGIN_LINK = '.icon-button';
 export const SELECTOR_LOGO_LINK = '.app-header__content>a'

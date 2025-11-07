@@ -9,9 +9,11 @@ test.describe('Главная страница-1', {tag: '@Test-header'}, () => 
         await HomePage.visit()
     });
 
-    test('Переход по ссылке "Глоссарий" в header', {tag: '@test-nav-menu'}, async ({HomePage, authValidPage}) => {
+    test('Переход по ссылке "Глоссарий" в header', {tag: '@test-nav-menu'}, async ({HomePage}) => {
         await HomePage.navUnAuthDesktop.clickGlossaryLink()
     })
+
+    sliderarArticlesTest('.more-articles', 'Статьи');
 
 });
 
