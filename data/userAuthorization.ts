@@ -5,4 +5,12 @@ export const usersAuth: Users = {
         email: 'lemeshev.m@spectrumdata.ru',
         password: '123123',
     },
+    wrongPassword: {
+        email: 'lemeshev.m@spectrumdata.ru',
+        password: 'sdfklsd1233333232dd',
+    },
+    emptyField: {
+        email: '',
+        password: ''
+    }
 };
