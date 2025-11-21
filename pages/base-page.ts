@@ -1,5 +1,5 @@
 // Базовая страница для всех страниц
-import {test, Page} from '@playwright/test';
+import {test, Page, expect} from '@playwright/test';
 import { NavbarDesktopUnAuth } from '@/components/navigation/header/navbarDesktopUnAuth';
 import { NavbarDesktopAuth } from '@/components/navigation/header/navbarDesktopAuth';
 
@@ -21,6 +21,13 @@ export class BasePage {
             await this.page.goto(this.url, {waitUntil: 'networkidle'});
         }
     )};
+
+    async urlСheck(): Promise<void> {
+        await test.step(`Проверка что url верный "${this.url}"`, async () => {
+            const regex = new RegExp(this.url);
+            await expect(this.page).toHaveURL(regex); 
+    })
+  }
 
     // Перезагрузка текущей страницы
     async reload(): Promise<void>{

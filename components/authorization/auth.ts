@@ -28,9 +28,8 @@ export class Auth {
     readonly enterBtn: Button;
     readonly emailCleanBtn: Button;
     readonly passCleanBtn: Button;
-    readonly registrationModalBtn: Button;
-    readonly forgetPassmodalBtn: Button;
-    readonly modalCloseBtn: Button;
+    readonly registrationBtn: Button;
+    readonly forgetPassBtn: Button;
     readonly emailClearBtn: Button;
     readonly passwordClearBtn: Button;
     readonly showHiddenPassBtn: Button;
@@ -43,9 +42,8 @@ export class Auth {
         this.passwordInput = new Input({page, locator: SELECTOR_PASSWORD_INPUT, name: 'Поле ввода password', root: this.root });
         this.enterBtn = new Button({page, locator: SELECTOR_ENTER_BTN, name: 'Кнопка "Войти"', root: this.root });
         this.title = new Title({page, locator: SELECTOR_TITLE, name: 'Заголовок', root: this.root });
-        this.registrationModalBtn = new Button({page, locator: SELECTOR_REGISTRATION_BTN, name: 'Кнопка "Зарегестрироваться"', root: this.root });
-        this.forgetPassmodalBtn = new Button({page, locator: SELECTOR_FORGET_PASS_BTN, name: 'Кнопка "Забыл пароль"', root: this.root });
-        this.modalCloseBtn = new Button({page, locator: SELECTOR_CLOSE_MODAL_BTN, name: 'Кнопка закрытия модалки(Х)', root: this.root });
+        this.registrationBtn = new Button({page, locator: SELECTOR_REGISTRATION_BTN, name: 'Кнопка "Зарегестрироваться"', root: this.root });
+        this.forgetPassBtn = new Button({page, locator: SELECTOR_FORGET_PASS_BTN, name: 'Кнопка "Забыл пароль"', root: this.root });
         this.emailClearBtn = new Button({page, locator: SELECTOR_EMAIL_CLEAR_BTN, name: 'Кнопка очистки поля email', root: this.root });
         this.passwordClearBtn = new Button({page, locator: SELECTOR_PASS_CLEAR_BTN, name: 'Кнопка очистки поля password', root: this.root });
         this.showHiddenPassBtn = new Button({page, locator: SELECTOR_SHOW_HIDDEN_PASS_BTN, name: 'Кнопка Показать/Скрыть пароль', root: this.root });
@@ -60,6 +58,7 @@ export class Auth {
 
     async fillFieldAuthEnter(keywordEmail: string, keywordPass: string) {
         await this.fillFieldAuth(keywordEmail, keywordPass);
-        await this.enterBtn.click();    
+        await this.enterBtn.click();   
+        
     }
 };

@@ -3,13 +3,13 @@ import { Page } from '@playwright/test';
 import { sliderarArticlesTest } from '@/components/base-slider/baseSlider-tests';
 
 
-test.describe('Главная страница-1', {tag: '@Test-header'}, () => {
+test.describe('Главная страница-1', () => {
 
     test.beforeEach(async ({ HomePage }) => {
         await HomePage.visit()
     });
 
-    test('Переход по ссылке "Глоссарий" в header', {tag: '@test-nav-menu'}, async ({HomePage}) => {
+    test('Переход по ссылке "Глоссарий" в header', async ({HomePage}) => {
         await HomePage.navUnAuthDesktop.clickGlossaryLink()
     })
 

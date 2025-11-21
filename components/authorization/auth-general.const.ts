@@ -4,7 +4,7 @@ export const SELECTOR_EMAIL_INPUT = 'input[name="email"]';
 export const SELECTOR_PASSWORD_INPUT = 'input[name="password"]';
 export const SELECTOR_ENTER_BTN = '.login-form__actions .ui-button--accent';
 export const SELECTOR_REGISTRATION_BTN = '.login-form__actions .ui-button--secondary';
-export const SELECTOR_FORGET_PASS_BTN = '.router-link-exact-active';
+export const SELECTOR_FORGET_PASS_BTN = '.login-form__link';
 export const SELECTOR_ERR_MESSAGE_EMAIL = '.login-form__fields>[name="email"] .ui-hint';
 export const SELECTOR_ERR_MESSAGE_PASSWORD = '.login-form__fields>[name="password"] .ui-hint';                        
 export const SELECTOR_EMAIL_CLEAR_BTN = '.login-form__fields>[name="email"] button.ui-input__remove-btn';                             

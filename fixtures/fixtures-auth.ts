@@ -10,7 +10,7 @@ export type AuthFixture = {
 export const authFixture: Fixtures<AuthFixture, ContextPagesFixture> = {
     authValidPage: async ({contextPage}, use) => {
         const authPage = new AuthorizationPage(contextPage);
-        await authPage.authPage(usersAuth.validUser.email, usersAuth.validUser.password);
+        await authPage.authorization(usersAuth.validUser.email, usersAuth.validUser.password);
         
         await use(authPage)
     }

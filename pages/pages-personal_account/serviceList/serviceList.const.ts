@@ -1,0 +1,1 @@
+export const SELECTOR_TITLE_PAGE = '.service__title';

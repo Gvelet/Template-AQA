@@ -1,6 +1,5 @@
 import { Page } from "@playwright/test";
 import { Link } from '@/page-factory/link'
-import { ModalAuth } from "@/components/modals/modalAuth/authModal";
 
 import {
     SELECTOR_ABOUTUS_LINK,
@@ -13,7 +12,6 @@ import {
 
 export class NavbarDesktopUnAuth {
     readonly rootNav: string;
-    readonly modalAuth: ModalAuth;
 
     private readonly aboutUsLink: Link;
     private readonly glossaryLink: Link;
@@ -24,7 +22,6 @@ export class NavbarDesktopUnAuth {
 
     constructor(public page: Page, root?: string){
         this.rootNav = root || '.app-header__desktop';
-        this.modalAuth = new ModalAuth(page)
 
         this.aboutUsLink = new Link({ page, locator: SELECTOR_ABOUTUS_LINK, name: '"О нас" у неавторизованного', root: this.rootNav }); 
         this.glossaryLink = new Link({ page, locator: SELECTOR_GLOSSARY_LINK, name: '"Глоссарий" у неавторизованного', root: this.rootNav });
@@ -59,10 +56,6 @@ export class NavbarDesktopUnAuth {
 
         await this.authLoginLink.hover()
         await this.authLoginLink.click();
-
-        await this.modalAuth.modalIsOpened();
     };
     
-
-
  }
