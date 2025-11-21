@@ -1,0 +1,13 @@
+<svg width="400" height="150" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 150">
+  <style>
+    .text { font-family: 'Georgia', serif; font-size: 28px; fill: #4a4a4a; }
+    .leaf { fill: #7cafc2; }
+    .circle { fill: #c2d7e7; }
+  </style>
+  <!-- Circle background element -->
+  <circle class="circle" cx="70" cy="75" r="50"/>
+  <!-- Leaf shape -->
+  <path class="leaf" d="M50,40 Q70,10 90,40 Q70,70 50,40 Z"/>
+  <!-- Text -->
+  <text class="text" x="140" y="90">Регина Лемешева</text>
+</svg>

@@ -1,0 +1,1355 @@
+{
+  "active_from": "1900-01-01T00:00:00.000Z",
+  "active_to": "3000-01-01T00:00:00.000Z",
+  "comment": "",
+  "content": {
+    "_metadata": {
+      "_comment": "Мета-данные, не связанные с отчетом",
+      "application": {
+        "uid": "processing@s-acc-processing-reportfacts-worker-57495c8f6d-9v78r",
+        "version": "99.5.0"
+      }
+    },
+    "accidents": {
+      "has_accidents": false,
+      "history": {
+        "_comment": "История ДТП",
+        "count": 0,
+        "date": {
+          "update": "2025-11-17 16:08:32"
+        },
+        "items": []
+      },
+      "insurance": {
+        "_comment": "История повреждений из страховых компаний",
+        "count": 0,
+        "date": {
+          "update": "2023-04-01 00:00:00"
+        },
+        "items": []
+      },
+      "statistics": {
+        "_comment": "Статистика ДТП",
+        "count": 0,
+        "date": [],
+        "items": []
+      }
+    },
+    "additional_info": {
+      "_comment": "Дополнительная информация",
+      "catalog": {
+        "oats": {
+          "items": []
+        },
+        "rsa": {
+          "items": []
+        },
+        "tecdoc": {
+          "items": []
+        },
+        "transdekra": {
+          "items": []
+        }
+      },
+      "identifiers": {
+        "vin": []
+      },
+      "vehicle": {
+        "category": [],
+        "modifications": [],
+        "owner": {
+          "enforcement_proceedings": [],
+          "geo": [],
+          "taxi_history": {
+            "probable_use": {
+              "items": []
+            },
+            "taxi_licenses": {
+              "actuality": [],
+              "items": []
+            }
+          }
+        },
+        "passport": {
+          "date": []
+        },
+        "restriction": [],
+        "segment": {
+          "euro": []
+        },
+        "sts": {
+          "date": []
+        },
+        "techreglament_category": []
+      }
+    },
+    "ads": {
+      "history": {
+        "_comment": "История объявлений",
+        "count": 0,
+        "date": {
+          "update": "2025-11-18 11:13:18"
+        },
+        "items": []
+      }
+    },
+    "ads_exposition": {
+      "_comment": "Время экспозиции объявлений",
+      "date": []
+    },
+    "arbitration": {
+      "_comment": "Проверка судебных дел",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "belarus": {
+      "accidents": {
+        "history": {
+          "date": [],
+          "items": []
+        }
+      },
+      "additional_info": {
+        "vehicle": {
+          "sts": {
+            "date": []
+          }
+        }
+      },
+      "diagnostic_cards": {
+        "date": [],
+        "items": [],
+        "permission": {
+          "date": []
+        }
+      },
+      "identifiers": {
+        "vehicle": {
+          "vin": "WP0ZZZ98ZKS270696"
+        }
+      },
+      "insurance": {
+        "osago": {
+          "date": [],
+          "items": []
+        }
+      },
+      "mileages": {
+        "items": []
+      },
+      "stealings": {
+        "is_wanted": false,
+        "items": [
+          {
+            "actuality": {
+              "date": "2023-12-20 16:12:25"
+            },
+            "description": "Транспортное средство с VIN, номером кузова или шасси [AA1TEST000000000A] в розыске не значится."
+          }
+        ]
+      },
+      "taxi": {
+        "history": {
+          "items": [],
+          "used_in_taxi": false
+        }
+      },
+      "tech_data": {
+        "body": [],
+        "brand": {
+          "logotype": [],
+          "name": []
+        },
+        "model": {
+          "name": []
+        },
+        "weight": []
+      }
+    },
+    "calculate": {
+      "_comment": "Калькуляторы",
+      "osago": {
+        "_comment": "Калькулятор ОСАГО",
+        "coefficients": {
+          "regional": []
+        },
+        "price": {
+          "current": {
+            "city": [],
+            "region": [],
+            "yearly": []
+          },
+          "moscow": {
+            "yearly": []
+          },
+          "moscow_region": {
+            "yearly": []
+          }
+        }
+      },
+      "tax": {
+        "moscow": {
+          "yearly": []
+        },
+        "regions": {
+          "yearly": []
+        }
+      }
+    },
+    "car_price": {
+      "_comment": "Приблизительные стоимости аналогичных автомобилей",
+      "count": 0,
+      "items": []
+    },
+    "carfax": {
+      "_comment": "Данные от CarFax",
+      "check": {
+        "_comment": "Данные быстрой проверки на наличие данных у CarFax"
+      }
+    },
+    "carsharing": {
+      "_comment": "Использование ТС в каршеринге",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "commercial_use": {
+      "_comment": "Коммерческое использование ТС",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "customs": {
+      "history": {
+        "_comment": "История по таможне",
+        "count": 1,
+        "date": {
+          "update": "2025-11-17 14:17:08"
+        },
+        "items": [
+          {
+            "_id": 570617445,
+            "color": [],
+            "country": {
+              "from": [],
+              "original": [],
+              "to": []
+            },
+            "date": {
+              "event": "2019-03-09 00:00:00"
+            },
+            "document": [],
+            "ecology": [],
+            "manufacturer": [],
+            "operation": [],
+            "org": [],
+            "owner": [],
+            "price": [],
+            "sender": [],
+            "specification": [],
+            "tax": [],
+            "utilization_tax": []
+          }
+        ]
+      }
+    },
+    "diagnostic_cards": {
+      "_comment": "Диагностические карты",
+      "count": 0,
+      "date": {
+        "update": "2025-11-17 14:21:39"
+      },
+      "items": []
+    },
+    "driver_licenses": {
+      "_comment": "Водительские удостоверения",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "executive_procedures": {
+      "_comment": "Исполнительные производства",
+      "count": 0,
+      "items": []
+    },
+    "fines": {
+      "_comment": "Штрафы",
+      "count": 0,
+      "date": [],
+      "has_fines": false,
+      "items": []
+    },
+    "gots_auctions": {
+      "_comment": "Размещение ТС на аукционах ГОТС",
+      "date": [],
+      "items": []
+    },
+    "identifiers": {
+      "_comment": "Идентификаторы",
+      "vehicle": {
+        "pts": "78УХ626171",
+        "reg_num": "С383ХА123",
+        "sts": "9909465684"
+      }
+    },
+    "identifiers_masked": {
+      "_comment": "Маскированные идентификаторы",
+      "vehicle": {
+        "pts": "78У*****71",
+        "reg_num": "С3*****23",
+        "sts": "990*****84"
+      }
+    },
+    "images": {
+      "_comment": "Изображения, связанные с ТС",
+      "photos": {
+        "_comment": "Фотографии ТС",
+        "count": 46,
+        "date": [],
+        "items": [
+          {
+            "_id": 398300928,
+            "date": {
+              "issued": "2025-02-23 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCNZ7TQKC8JZFZNJQA12R",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1666791743,
+            "date": {
+              "issued": "2025-02-23 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP53R7B354PFJJJJY0ST",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2484193910,
+            "date": {
+              "issued": "2025-02-23 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP51DDJP6TCVCXRGZQHQ",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 4108838613,
+            "date": {
+              "issued": "2024-12-25 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP506JHWN1V3YMRY5BAE",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2172351964,
+            "date": {
+              "issued": "2024-11-19 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP52FQ95W4AF7VP1SFPJ",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2902480442,
+            "date": {
+              "issued": "2024-07-14 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP3VSVPXQ4FGKZJR7DYY",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2342021885,
+            "date": {
+              "issued": "2024-07-13 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP1YX0S8E7M9QPE75CXB",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2298284073,
+            "date": {
+              "issued": "2023-06-15 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4N119R3Z6X4FAP448F",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1152608435,
+            "date": {
+              "issued": "2023-05-05 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4MCEMD6TZFPKPQN5VA",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 4157576073,
+            "date": {
+              "issued": "2023-02-25 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4Q61GDEWANGMT705NQ",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2073375545,
+            "date": {
+              "issued": "2022-12-24 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4P160KXJASJ4QZMVYW",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2787642088,
+            "date": {
+              "issued": "2022-09-14 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4H02853A5P8SC3AVQV",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 813938817,
+            "date": {
+              "issued": "2022-09-14 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4FAXPAFRGVNT104HKD",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 902606340,
+            "date": {
+              "issued": "2022-08-17 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4FAXPAFRGVNT104HKC",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1360388136,
+            "date": {
+              "issued": "2022-08-06 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4EBVMT9KPX785W6FCS",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 579104080,
+            "date": {
+              "issued": "2022-08-06 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4GVSFKQVF8S4XGTQ7P",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 387411919,
+            "date": {
+              "issued": "2022-06-04 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4BFJV67S3NKKR1C1NF",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 4294899973,
+            "date": {
+              "issued": "2022-06-04 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4CEPRN02YDZM4PHJRA",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2411918701,
+            "date": {
+              "issued": "2022-06-04 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4DND3Q68GEV0KGJD9Z",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2374257460,
+            "date": {
+              "issued": "2022-06-04 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4DND3Q68GEV0KGJD9Y",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2883427970,
+            "date": {
+              "issued": "2022-03-28 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP49EPTXHHGD2PZN6TM5",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 724814087,
+            "date": {
+              "issued": "2021-11-22 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP4AJNNP3A441G5SNPDX",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2184777701,
+            "date": {
+              "issued": "2021-08-20 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP48G1ZD2DQE4RTSBPSW",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 535889233,
+            "date": {
+              "issued": "2021-08-07 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP469CJW8HXH950VSEFZ",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1701820227,
+            "date": {
+              "issued": "2020-11-18 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP41TK0H63GG68VPW6NE",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1818135027,
+            "date": {
+              "issued": "2020-10-28 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP44Y5YE38DQNV76EA1S",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1262186263,
+            "date": {
+              "issued": "2020-09-10 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP42SGMV55R18K6098J6",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1232982350,
+            "date": {
+              "issued": "2020-09-03 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP42SGMV55R18K6098J5",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1815789391,
+            "date": {
+              "issued": "2020-09-03 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP40P09QJ68PPCCPJ828",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2778148664,
+            "date": {
+              "issued": "2020-07-04 16:46:18"
+            },
+            "uri": "http://img03.platesmania.com/200704/o/14967959.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 379348021,
+            "date": {
+              "issued": "2020-07-04 16:10:49"
+            },
+            "uri": "http://img03.platesmania.com/200704/o/14967853.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 1252272410,
+            "date": {
+              "issued": "2020-07-01 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP3YM1T9VSVF86973SCJ",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1226898804,
+            "date": {
+              "issued": "2020-06-26 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP3YM1T9VSVF86973SCH",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2843610376,
+            "date": {
+              "issued": "2020-06-23 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP3N7VTMBQS4Y87YW3AN",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 712441488,
+            "date": {
+              "issued": "2020-06-06 00:45:15"
+            },
+            "uri": "http://img03.platesmania.com/200606/o/14820470.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 411258274,
+            "date": {
+              "issued": "2020-06-03 15:22:38"
+            },
+            "uri": "http://img03.platesmania.com/200603/o/14806786.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 1894432606,
+            "date": {
+              "issued": "2020-04-08 17:13:13"
+            },
+            "uri": "http://img03.platesmania.com/200408/o/14516515.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 2102708089,
+            "date": {
+              "issued": "2020-04-02 10:22:25"
+            },
+            "uri": "http://img03.platesmania.com/200402/o/14482041.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 934883885,
+            "date": {
+              "issued": "2020-01-21 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP21QZHKYB0BD5SZ4APR",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2240818428,
+            "date": {
+              "issued": "2019-12-06 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP2KCEVDQAPFDBATNEZP",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1912066080,
+            "date": {
+              "issued": "2019-12-06 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP2GZSZ4X9WCA275MBWY",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 4132136714,
+            "date": {
+              "issued": "2019-12-06 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP314ME8Z9SJSQXXR8V0",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1887663507,
+            "date": {
+              "issued": "2019-08-27 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP2TSDA0VW94CWYRF4FR",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 1827127323,
+            "date": {
+              "issued": "2019-05-16 00:00:00"
+            },
+            "uri": "https://simk-imagekeeper-assets.cloud.sd/01KAAXCP2PT9V4APTRS3BM4732",
+            "vehicle": {
+              "brand": [],
+              "model": []
+            }
+          },
+          {
+            "_id": 2686935289,
+            "date": {
+              "issued": "2019-05-01 18:15:16"
+            },
+            "uri": "http://img03.platesmania.com/190501/o/12797075.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          },
+          {
+            "_id": 224002471,
+            "date": {
+              "issued": "2019-05-01 18:14:13"
+            },
+            "uri": "http://img03.platesmania.com/190501/o/12797068.jpg",
+            "vehicle": {
+              "brand": {
+                "name": "Porsche"
+              },
+              "model": {
+                "name": "Cayman"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "insurance": {
+      "osago": {
+        "_comment": "ОСАГО",
+        "count": 0,
+        "date": {
+          "update": "2025-11-17 14:14:51"
+        },
+        "items": []
+      }
+    },
+    "insurance_scores": {
+      "accident_probability": [],
+      "payout": [],
+      "pvu_accident_probability": [],
+      "pvu_payout_delta": []
+    },
+    "leasings": {
+      "_comment": "Лизинг",
+      "count": 0,
+      "date": {
+        "update": "2025-11-17 14:14:51"
+      },
+      "items": [],
+      "used_in_leasing": false
+    },
+    "market_prices": {
+      "_comment": "Рыночная стоимость ТС",
+      "ads": {
+        "date": {
+          "update": "2025-11-18 11:13:18"
+        },
+        "items": []
+      },
+      "appraisal": {
+        "amount": [],
+        "date": [],
+        "reasons": {
+          "accidents": [],
+          "ownerships": []
+        }
+      },
+      "new_vehicle": {
+        "date": [],
+        "items": [
+          {
+            "amount": [],
+            "currency": {
+              "type": "RUB"
+            }
+          }
+        ]
+      }
+    },
+    "mileages": {
+      "_comment": "Пробеги",
+      "count": 0,
+      "items": []
+    },
+    "ownership": {
+      "history": {
+        "_comment": "История владения",
+        "count": 1,
+        "date": {
+          "update": "2025-11-17 14:27:39"
+        },
+        "items": [
+          {
+            "_id": 3581029183,
+            "date": {
+              "start": "2019-04-04 00:00:00"
+            },
+            "days": 2421,
+            "duration_iso": "P6Y7M15D",
+            "last_operation": {
+              "code": "01",
+              "description": "Регистрация новых, произведенных в России или везенных, а также ввезенных в Россию бывших в эксплуатации, в том числе временно на срок более 6 месяцев, испытательной техники"
+            },
+            "owner": {
+              "company": [],
+              "type": "PERSON"
+            }
+          }
+        ],
+        "usage": {
+          "days": 2421,
+          "duration_iso": "P6Y7M15D"
+        }
+      }
+    },
+    "pledges": {
+      "_comment": "Обременения на ТС",
+      "count": 0,
+      "date": {
+        "update": "2025-11-17 00:00:00"
+      },
+      "items": []
+    },
+    "pledges_nbki": {
+      "_comment": "Обременения на ТС по данным НБКИ",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "pledges_online": {
+      "_comment": "Обременения на ТС Онлайн",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "recall_campaigns": {
+      "_comment": "Отзывные кампании",
+      "count": 1,
+      "date": {
+        "update": "2025-11-17 14:17:08"
+      },
+      "items": [
+        {
+          "_id": 2066755656,
+          "company": {
+            "name": "ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ \"ПОРШЕ РУССЛАНД\""
+          },
+          "date": "2019-03-25",
+          "description": {
+            "reason": "Из-за недостаточного соединения отдельных элементов передней части кузова в зоне багажного отделения, требования, предъявляемые нормативными актами, могут оказаться не соблюдены в случае фронтального столкновения.",
+            "recommendation": "На соответствующих транспортных средствах будут доработаны нижняя продольная балка и поперечина в багажном отделении для стабилизации структуры кузова."
+          },
+          "news": {
+            "url": "https://www.gost.ru//newsRST/redirect/news/1/6049"
+          },
+          "vehicle": {
+            "brand": "Porsche",
+            "model": "Porsche"
+          }
+        }
+      ]
+    },
+    "registration_actions": {
+      "_comment": "Регистрационные действия",
+      "count": 1,
+      "date": [],
+      "has_annulment": false,
+      "items": [
+        {
+          "_id": 136919946,
+          "actuality": [],
+          "attributes": [],
+          "code": "11",
+          "date": {
+            "start": "2019-04-04 00:00:00"
+          },
+          "geo": {
+            "city": "г Краснодар",
+            "region": "Краснодарский край"
+          },
+          "identifiers": {
+            "pts": "78УХ626171",
+            "sts": "9909465684"
+          },
+          "owner": {
+            "org": [],
+            "type": "PERSON"
+          },
+          "reg_num": "С383ХА123",
+          "type": "Первичная регистрация",
+          "usage_allowed": true
+        }
+      ]
+    },
+    "repairs": {
+      "_comment": "Ремонтные работы",
+      "history": {
+        "_comment": "История ремонтных работ по страховке",
+        "count": 0,
+        "date": {
+          "update": "2025-11-17 14:14:51"
+        },
+        "items": []
+      }
+    },
+    "report_meta": [],
+    "restrictions": {
+      "registration_actions": {
+        "_comment": "Ограничения на рег. действия",
+        "count": 0,
+        "date": {
+          "update": "2025-11-17 15:07:45"
+        },
+        "has_restrictions": false,
+        "items": []
+      },
+      "registration_actions_archive": {
+        "_comment": "Архив ограничений на рег. действия",
+        "count": 0,
+        "date": [],
+        "items": []
+      }
+    },
+    "service_history": {
+      "_comment": "История дилерского обслуживания",
+      "count": 0,
+      "date": {
+        "update": "2025-11-17 14:17:08"
+      },
+      "items": []
+    },
+    "stealings": {
+      "_comment": "Проверка на угон",
+      "count": 0,
+      "date": {
+        "update": "2025-11-17 14:15:42"
+      },
+      "is_wanted": false,
+      "items": []
+    },
+    "taxi": {
+      "history": {
+        "_comment": "Такси",
+        "count": 0,
+        "items": []
+      },
+      "used_in_taxi": false
+    },
+    "taxi_analytics": {
+      "probable_use": []
+    },
+    "tech_data": {
+      "_comment": "Характеристики ТС",
+      "body": {
+        "_comment": "Кузов",
+        "color": []
+      },
+      "brand": {
+        "_comment": "Марка",
+        "logotype": {
+          "uri": "https://vl.imgix.net/img/kia-logo.png"
+        },
+        "name": {
+          "original": "PORSHE"
+        }
+      },
+      "chassis": {
+        "_comment": "Шасси"
+      },
+      "date": {
+        "update": "2025-11-17 14:27:39"
+      },
+      "drive": {
+        "_comment": "Привод"
+      },
+      "engine": {
+        "_comment": "Двигатель",
+        "fuel": [],
+        "model": [],
+        "power": [],
+        "standarts": {
+          "emission": []
+        }
+      },
+      "filled_by": [],
+      "generations": [],
+      "manufacturer": [],
+      "model": {
+        "_comment": "Модель",
+        "name": {
+          "original": "Camry"
+        }
+      },
+      "transmission": {
+        "_comment": "Трансмиссия"
+      },
+      "type": {
+        "_comment": "Тип (Вид) ТС"
+      },
+      "weight": {
+        "_comment": "Масса"
+      },
+      "wheel": {
+        "_comment": "Рулевое колесо"
+      },
+      "year": "1991"
+    },
+    "utilizations": {
+      "_comment": "Утилизация",
+      "count": 0,
+      "date": [],
+      "items": [],
+      "was_utilized": false
+    }
+  },
+  "created_at": "2025-11-17T14:14:50.982Z",
+  "created_by": "system",
+  "domain_uid": "avtocod",
+  "last_generation_stat": {
+    "complete_time": "2025-11-18T11:13:19.047Z",
+    "duration": 1376,
+    "start_time": "2025-11-18T11:13:17.671Z"
+  },
+  "name": "NONAME",
+  "progress_error": 2,
+  "progress_ok": 35,
+  "progress_wait": 0,
+  "query": {
+    "body": "WP0ZZZ98ZKS270696",
+    "schema_version": "1.0",
+    "storages": [],
+    "type": "VIN"
+  },
+  "report_type_uid": "avtocod_by_full_report@avtocod",
+  "requested_at": "2025-11-18T11:13:17.671Z",
+  "state": {
+    "sources": [
+      {
+        "_id": "accidents.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "ads.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "ads.price",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "ads.price.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "arbitration.history",
+        "extended_state": "ERROR",
+        "state": "ERROR"
+      },
+      {
+        "_id": "av.taxi",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "base.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "carsharing.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "customs.fts",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "diagnostic.cards.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "dtp.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "fines.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "fssp.base.executive",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "gibdd.dtp",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.eaisto",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.fines",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.history",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.restrict",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.wanted",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.wanted.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "images.archive",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "images.avtonomer",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "insurance.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "insurance.vehicle.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "leasing.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "mileages.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "osago.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "pledge.house",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "recall.campaigns.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "references.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "repairs.history.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "restrictions.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "service.history",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "vehicle.info.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "vin.decoder",
+        "extended_state": "SKIP",
+        "state": "OK"
+      },
+      {
+        "_id": "wanted.blr",
+        "extended_state": "OK",
+        "state": "OK"
+      }
+    ]
+  },
+  "tags": "",
+  "uid": "avtocod_by_full_report_WP0ZZZ98ZKS270696@avtocod",
+  "updated_at": "2025-11-18T11:13:19.156Z",
+  "updated_by": "system",
+  "vehicle_id": "WP0ZZZ98ZKS270696"
+}

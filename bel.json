@@ -1,0 +1,816 @@
+{
+  "active_from": "1900-01-01T00:00:00.000Z",
+  "active_to": "3000-01-01T00:00:00.000Z",
+  "comment": "",
+  "content": {
+    "_metadata": {
+      "_comment": "Мета-данные, не связанные с отчетом",
+      "application": {
+        "uid": "processing@s-acc-processing-reportfacts-worker-57495c8f6d-llpj4",
+        "version": "99.5.0"
+      }
+    },
+    "accidents": {
+      "has_accidents": false,
+      "history": {
+        "_comment": "История ДТП",
+        "count": 0,
+        "date": {
+          "update": "2025-11-19 08:06:07"
+        },
+        "items": []
+      },
+      "insurance": {
+        "_comment": "История повреждений из страховых компаний",
+        "count": 0,
+        "date": {
+          "update": "2023-04-01 00:00:00"
+        },
+        "items": []
+      },
+      "statistics": {
+        "_comment": "Статистика ДТП",
+        "count": 0,
+        "date": [],
+        "items": []
+      }
+    },
+    "additional_info": {
+      "_comment": "Дополнительная информация",
+      "catalog": {
+        "oats": {
+          "items": []
+        },
+        "rsa": {
+          "items": []
+        },
+        "tecdoc": {
+          "items": []
+        },
+        "transdekra": {
+          "items": []
+        }
+      },
+      "identifiers": {
+        "vin": []
+      },
+      "vehicle": {
+        "category": [],
+        "modifications": [],
+        "owner": {
+          "enforcement_proceedings": [],
+          "geo": [],
+          "taxi_history": {
+            "probable_use": {
+              "items": []
+            },
+            "taxi_licenses": {
+              "actuality": [],
+              "items": []
+            }
+          }
+        },
+        "passport": {
+          "date": []
+        },
+        "restriction": [],
+        "segment": {
+          "euro": []
+        },
+        "sts": {
+          "date": []
+        },
+        "techreglament_category": []
+      }
+    },
+    "ads": {
+      "history": {
+        "_comment": "История объявлений",
+        "count": 0,
+        "date": {
+          "update": "2025-11-19 08:11:29"
+        },
+        "items": []
+      }
+    },
+    "ads_exposition": {
+      "_comment": "Время экспозиции объявлений",
+      "date": []
+    },
+    "arbitration": {
+      "_comment": "Проверка судебных дел",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "belarus": {
+      "accidents": {
+        "history": {
+          "date": [],
+          "items": []
+        }
+      },
+      "additional_info": {
+        "vehicle": {
+          "sts": {
+            "date": []
+          }
+        }
+      },
+      "diagnostic_cards": {
+        "date": [],
+        "items": [],
+        "permission": {
+          "date": []
+        }
+      },
+      "identifiers": {
+        "vehicle": {
+          "vin": "XTA21102020459480"
+        }
+      },
+      "insurance": {
+        "osago": {
+          "date": [],
+          "items": []
+        }
+      },
+      "mileages": {
+        "items": []
+      },
+      "stealings": {
+        "items": []
+      },
+      "taxi": {
+        "history": {
+          "items": []
+        }
+      },
+      "tech_data": {
+        "body": [],
+        "brand": {
+          "logotype": [],
+          "name": []
+        },
+        "model": {
+          "name": []
+        },
+        "weight": []
+      }
+    },
+    "calculate": {
+      "_comment": "Калькуляторы",
+      "osago": {
+        "_comment": "Калькулятор ОСАГО",
+        "coefficients": {
+          "regional": []
+        },
+        "price": {
+          "current": {
+            "city": [],
+            "region": [],
+            "yearly": []
+          },
+          "moscow": {
+            "yearly": []
+          },
+          "moscow_region": {
+            "yearly": []
+          }
+        }
+      },
+      "tax": {
+        "moscow": {
+          "yearly": []
+        },
+        "regions": {
+          "yearly": []
+        }
+      }
+    },
+    "car_price": {
+      "_comment": "Приблизительные стоимости аналогичных автомобилей",
+      "count": 0,
+      "items": []
+    },
+    "carfax": {
+      "_comment": "Данные от CarFax",
+      "check": {
+        "_comment": "Данные быстрой проверки на наличие данных у CarFax"
+      }
+    },
+    "carsharing": {
+      "_comment": "Использование ТС в каршеринге",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "commercial_use": {
+      "_comment": "Коммерческое использование ТС",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "customs": {
+      "history": {
+        "_comment": "История по таможне",
+        "count": 0,
+        "date": {
+          "update": "2025-11-19 07:59:59"
+        },
+        "items": []
+      }
+    },
+    "diagnostic_cards": {
+      "_comment": "Диагностические карты",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:57"
+      },
+      "items": []
+    },
+    "driver_licenses": {
+      "_comment": "Водительские удостоверения",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "executive_procedures": {
+      "_comment": "Исполнительные производства",
+      "count": 0,
+      "items": []
+    },
+    "fines": {
+      "_comment": "Штрафы",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "gots_auctions": {
+      "_comment": "Размещение ТС на аукционах ГОТС",
+      "date": [],
+      "items": []
+    },
+    "identifiers": {
+      "_comment": "Идентификаторы",
+      "vehicle": {
+        "vin": "XTA21102020459480"
+      }
+    },
+    "identifiers_masked": {
+      "_comment": "Маскированные идентификаторы",
+      "vehicle": {
+        "vin": "XTA2************0"
+      }
+    },
+    "images": {
+      "_comment": "Изображения, связанные с ТС",
+      "photos": {
+        "_comment": "Фотографии ТС",
+        "count": 0,
+        "date": [],
+        "items": []
+      }
+    },
+    "insurance": {
+      "osago": {
+        "_comment": "ОСАГО",
+        "count": 0,
+        "date": {
+          "update": "2025-11-19 07:59:48"
+        },
+        "items": []
+      }
+    },
+    "insurance_scores": {
+      "accident_probability": [],
+      "payout": [],
+      "pvu_accident_probability": [],
+      "pvu_payout_delta": []
+    },
+    "leasings": {
+      "_comment": "Лизинг",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:48"
+      },
+      "items": [],
+      "used_in_leasing": false
+    },
+    "market_prices": {
+      "_comment": "Рыночная стоимость ТС",
+      "ads": {
+        "date": {
+          "update": "2025-11-19 08:11:29"
+        },
+        "items": []
+      },
+      "appraisal": {
+        "amount": [],
+        "date": [],
+        "reasons": {
+          "accidents": [],
+          "ownerships": []
+        }
+      },
+      "new_vehicle": {
+        "date": [],
+        "items": [
+          {
+            "amount": [],
+            "currency": {
+              "type": "RUB"
+            }
+          }
+        ]
+      }
+    },
+    "mileages": {
+      "_comment": "Пробеги",
+      "count": 0,
+      "items": []
+    },
+    "ownership": {
+      "history": {
+        "_comment": "История владения",
+        "count": 5,
+        "date": {
+          "update": "2025-11-19 08:11:28"
+        },
+        "items": [
+          {
+            "_id": 531498546,
+            "date": {
+              "start": "2013-08-30 00:00:00"
+            },
+            "days": 4465,
+            "duration_iso": "P12Y2M21D",
+            "last_operation": {
+              "code": "94",
+              "description": "По сделкам, произведенным в любой форме (купля-продажа, дарение, др.) с сохранением государственных регистрационных знаков за новым собственником"
+            },
+            "owner": {
+              "type": "PERSON"
+            }
+          },
+          {
+            "_id": 509042447,
+            "date": {
+              "end": "2013-08-30 00:00:00",
+              "start": "2009-07-01 00:00:00"
+            },
+            "days": 1522,
+            "duration_iso": "P4Y2M",
+            "last_operation": {
+              "code": "62",
+              "description": "В связи с прекращением права собственности (отчуждение, конфискация ТС)"
+            },
+            "owner": {
+              "type": "PERSON"
+            }
+          },
+          {
+            "_id": 217998789,
+            "date": {
+              "end": "2009-07-01 00:00:00",
+              "start": "2009-04-03 00:00:00"
+            },
+            "days": 90,
+            "duration_iso": "P2M29D",
+            "last_operation": {
+              "code": "62",
+              "description": "В связи с прекращением права собственности (отчуждение, конфискация ТС)"
+            },
+            "owner": {
+              "type": "PERSON"
+            }
+          },
+          {
+            "_id": 3322892680,
+            "date": {
+              "end": "2009-03-31 00:00:00",
+              "start": "2003-08-01 00:00:00"
+            },
+            "days": 2070,
+            "duration_iso": "P5Y8M",
+            "last_operation": {
+              "code": "62",
+              "description": "В связи с прекращением права собственности (отчуждение, конфискация ТС)"
+            },
+            "owner": {
+              "type": "PERSON"
+            }
+          },
+          {
+            "_id": 1690907540,
+            "date": {
+              "end": "2003-07-29 00:00:00",
+              "start": "2002-02-28 00:00:00"
+            },
+            "days": 517,
+            "duration_iso": "P1Y5M",
+            "last_operation": {
+              "code": "62",
+              "description": "В связи с прекращением права собственности (отчуждение, конфискация ТС)"
+            },
+            "owner": {
+              "type": "PERSON"
+            }
+          }
+        ],
+        "usage": {
+          "days": 8662,
+          "duration_iso": "P23Y8M19D"
+        }
+      }
+    },
+    "pledges": {
+      "_comment": "Обременения на ТС",
+      "count": 0,
+      "date": {
+        "update": "2025-11-18 00:00:00"
+      },
+      "items": []
+    },
+    "pledges_nbki": {
+      "_comment": "Обременения на ТС по данным НБКИ",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "pledges_online": {
+      "_comment": "Обременения на ТС Онлайн",
+      "count": 0,
+      "date": [],
+      "items": []
+    },
+    "recall_campaigns": {
+      "_comment": "Отзывные кампании",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:49"
+      },
+      "items": []
+    },
+    "registration_actions": {
+      "_comment": "Регистрационные действия",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:47"
+      },
+      "items": []
+    },
+    "repairs": {
+      "_comment": "Ремонтные работы",
+      "history": {
+        "_comment": "История ремонтных работ по страховке",
+        "count": 0,
+        "date": {
+          "update": "2025-11-19 07:59:48"
+        },
+        "items": []
+      }
+    },
+    "report_meta": [],
+    "restrictions": {
+      "registration_actions": {
+        "_comment": "Ограничения на рег. действия",
+        "count": 0,
+        "date": [],
+        "items": []
+      },
+      "registration_actions_archive": {
+        "_comment": "Архив ограничений на рег. действия",
+        "count": 0,
+        "date": [],
+        "items": []
+      }
+    },
+    "service_history": {
+      "_comment": "История дилерского обслуживания",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:48"
+      },
+      "items": []
+    },
+    "stealings": {
+      "_comment": "Проверка на угон",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 08:00:47"
+      },
+      "is_wanted": false,
+      "items": []
+    },
+    "taxi": {
+      "history": {
+        "_comment": "Такси",
+        "count": 0,
+        "items": []
+      }
+    },
+    "taxi_analytics": {
+      "probable_use": []
+    },
+    "tech_data": {
+      "_comment": "Характеристики ТС",
+      "body": {
+        "_comment": "Кузов",
+        "color": {
+          "name": "Серебристый Желто-Зеленый"
+        }
+      },
+      "brand": {
+        "_comment": "Марка",
+        "id": "ID_MARK_LADA_VAZ",
+        "logotype": {
+          "uri": "https://vl.imgix.net/img/lada-logo.png"
+        },
+        "name": {
+          "normalized": "Lada (ВАЗ)",
+          "original": "Ваз21102"
+        }
+      },
+      "chassis": {
+        "_comment": "Шасси"
+      },
+      "date": {
+        "update": "2025-11-19 08:11:28"
+      },
+      "drive": {
+        "_comment": "Привод"
+      },
+      "engine": {
+        "_comment": "Двигатель",
+        "fuel": [],
+        "model": [],
+        "power": {
+          "hp": 78,
+          "kw": 57.37
+        },
+        "standarts": {
+          "emission": []
+        },
+        "volume": 1499
+      },
+      "filled_by": {
+        "provider": "GIBDD"
+      },
+      "generations": [
+        {
+          "_id": 294872110,
+          "bodies": [
+            {
+              "id": "6257206",
+              "modifications": [
+                {
+                  "drive": {
+                    "type": "ПЕРЕДНИЙ"
+                  },
+                  "engine": {
+                    "fuel": {
+                      "type": "Бензиновый"
+                    },
+                    "power": {
+                      "hp": 79
+                    },
+                    "volume": 1.5
+                  },
+                  "id": "6257220",
+                  "name": "Модификация 1.5 MT",
+                  "transmission": {
+                    "type": "MANUAL"
+                  }
+                }
+              ],
+              "type": "Седан"
+            }
+          ],
+          "id": "6257199",
+          "is_restyling": false,
+          "name": "",
+          "years": {
+            "end": 2014,
+            "start": 1995
+          }
+        }
+      ],
+      "manufacturer": [],
+      "model": {
+        "_comment": "Модель",
+        "id": "ID_MARK_LADA_VAZ_MODEL_2110",
+        "name": {
+          "normalized": "2110"
+        }
+      },
+      "transmission": {
+        "_comment": "Трансмиссия"
+      },
+      "type": {
+        "_comment": "Тип (Вид) ТС",
+        "code": "29",
+        "name": "Прочие",
+        "type_id": "ID_BODY_TYPE_OTHER"
+      },
+      "weight": {
+        "_comment": "Масса"
+      },
+      "wheel": {
+        "_comment": "Рулевое колесо"
+      },
+      "year": 2002
+    },
+    "utilizations": {
+      "_comment": "Утилизация",
+      "count": 0,
+      "date": {
+        "update": "2025-11-19 07:59:47"
+      },
+      "items": [],
+      "was_utilized": false
+    }
+  },
+  "created_at": "2025-11-19T07:59:47.645Z",
+  "created_by": "system",
+  "domain_uid": "avtocod",
+  "last_generation_stat": {
+    "start_time": "2025-11-19T07:59:47.688Z"
+  },
+  "name": "NONAME",
+  "progress_error": 6,
+  "progress_ok": 23,
+  "progress_wait": 2,
+  "query": {
+    "body": "XTA21102020459480",
+    "schema_version": "1.0",
+    "storages": [],
+    "type": "VIN"
+  },
+  "report_type_uid": "avtocod_profi_full_report@avtocod",
+  "requested_at": "2025-11-19T07:59:47.688Z",
+  "state": {
+    "sources": [
+      {
+        "_id": "ads.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "ads.price",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "ads.price.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "arbitration.history",
+        "extended_state": "ERROR",
+        "state": "ERROR"
+      },
+      {
+        "_id": "av.taxi",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "carsharing.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "customs.fts",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "dtp.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "fines.registry",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "fssp.base.executive",
+        "extended_state": "WAITING",
+        "state": "PROGRESS"
+      },
+      {
+        "_id": "gibdd.dtp",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.eaisto",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.fines",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "gibdd.history",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.restrict",
+        "extended_state": "PROGRESS",
+        "state": "PROGRESS"
+      },
+      {
+        "_id": "gibdd.wanted",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "gibdd.wanted.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "images.archive",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "images.avtonomer",
+        "extended_state": "CANCEL",
+        "state": "ERROR"
+      },
+      {
+        "_id": "insurance.vehicle.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "leasing.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "mileages.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "osago.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "pledge.house",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "recall.campaigns.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "references.base",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "repairs.history.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "restrictions.registry",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "service.history",
+        "extended_state": "OK",
+        "state": "OK"
+      },
+      {
+        "_id": "vin.decoder",
+        "extended_state": "SKIP",
+        "state": "OK"
+      }
+    ]
+  },
+  "tags": "",
+  "uid": "avtocod_profi_full_report_XTA21102020459480@avtocod",
+  "updated_at": "2025-11-19T08:11:30.020Z",
+  "updated_by": "system",
+  "vehicle_id": "XTA21102020459480"
+}
